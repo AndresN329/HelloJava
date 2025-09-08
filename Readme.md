@@ -1,79 +1,79 @@
-# ☕ Introducción a Java
+# ☕ Introduction to Java
 
-Este repositorio está dedicado a mi aprendizaje de **Java**, un lenguaje de programación ampliamente utilizado en el desarrollo de aplicaciones empresariales, móviles, de escritorio y sistemas distribuidos.
-
----
-
-## 📖 ¿Qué es Java?
-
-Java es un **lenguaje de programación orientado a objetos (POO)**, de propósito general, creado por *James Gosling* en 1995 y mantenido por **Oracle**.  
-Algunas de sus características principales:
-
-- **Portabilidad**: gracias a la **JVM (Java Virtual Machine)**, el código Java puede ejecutarse en múltiples plataformas sin necesidad de modificaciones.
-- **Orientado a objetos**: todo en Java se organiza en torno a clases y objetos.
-- **Robusto y seguro**: incluye manejo de memoria automático (garbage collector) y fuertes mecanismos de control de errores.
-- **Multihilo**: permite la ejecución de múltiples procesos de manera concurrente.
-- **Amplia comunidad y librerías**: cuenta con un ecosistema muy grande y activo.
-
-El lema de Java es: **“Write once, run anywhere”** (*escribe una vez, ejecuta en cualquier lugar*).
+This repository is dedicated to my learning of **Java**, a programming language widely used in the development of enterprise, mobile, desktop, and distributed systems applications.
 
 ---
 
-## 🖥️ Primer programa en Java
+## 📖 What is Java?
 
-El clásico **"Hola Mundo"** en Java se escribe así:
+Java is a general-purpose **object-oriented programming (OOP)** language created by *James Gosling* in 1995 and maintained by **Oracle**.
+Some of its main features:
+
+- **Portability**: thanks to the **JVM (Java Virtual Machine)**, Java code can run on multiple platforms without modification.
+- **Object-oriented**: everything in Java is organized around classes and objects.
+- **Robust and secure**: includes automatic memory management (garbage collector) and strong error-handling mechanisms.
+- **Multithreading**: allows the execution of multiple processes concurrently.
+- **Large community and libraries**: It has a very large and active ecosystem.
+
+Java's motto is: **“Write once, run anywhere”.**
+
+---
+
+## 🖥️ First Java program
+
+The classic **"Hello World"** in Java is written like this:
 
 ```java
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hola, Mundo!");
-    }
+public static void main(String[] args) {
+System.out.println("Hello, World!");
+}
 }
 ```
 
-### Explicación:
-- `public class Main` → define una clase pública llamada `Main`.
-- `public static void main(String[] args)` → método principal, punto de entrada de cualquier aplicación Java.
-- `System.out.println("Hola, Mundo!");` → imprime un mensaje en la consola.
+### Explanation:
+- `public class Main` → defines a public class called `Main`.
+- `public static void main(String[] args)` → main method, the entry point for any Java application.
+- `System.out.println("Hello, World!");` → prints a message to the console.
 
 ---
 
-## ⚙️ Cómo compilar y ejecutar
+## ⚙️ How to compile and run
 
-1. Guardar el archivo con extensión `.java` (ejemplo: `Main.java`).
-2. Compilar el archivo:
-   ```bash
-   javac Main.java
-   ```
-3. Ejecutar el programa:
-   ```bash
-   java Main
-   ```
-
----
-
-## 🧩 Temas que estudiaré en este repositorio
-
-- Sintaxis básica: variables, tipos de datos, operadores.
-- Control de flujo: condicionales (`if`, `switch`) y bucles (`for`, `while`).
-- Programación Orientada a Objetos (POO): clases, objetos, herencia, polimorfismo, encapsulamiento.
-- Manejo de excepciones.
-- Colecciones en Java.
-- Entrada y salida de datos (I/O).
-- Programación concurrente (multihilo).
-- Proyectos pequeños de práctica.
+1. Save the file with the `.java` extension (example: `Main.java`).
+2. Compile the file:
+```bash
+javac Main.java
+```
+3. Run the program:
+```bash
+java Main
+```
 
 ---
 
-## 📚 Recursos recomendados
+## 🧩 Topics I will study in this repository
 
-- [Documentación oficial de Java](https://docs.oracle.com/en/java/)
+- Basic syntax: variables, data types, operators.
+- Flow control: conditionals (`if`, `switch`) and loops (`for`, `while`).
+- Object-Oriented Programming (OOP): classes, objects, inheritance, polymorphism, encapsulation.
+- Exception handling.
+- Collections in Java.
+- Data input and output (I/O).
+- Concurrent programming (multithreading).
+- Small practice projects.
+
+---
+
+## 📚 Recommended Resources
+
+- [Official Java Documentation](https://docs.oracle.com/en/java/)
 - [Java Tutorial – Oracle](https://docs.oracle.com/javase/tutorial/)
 - [w3schools - Java](https://www.w3schools.com/java/)
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
-**Andrés**  
-Aprendiendo Java paso a paso y documentando el proceso en este repositorio.  
+**Andrés**
+Learning Java step by step and documenting the process in this repository.
