@@ -1,3 +1,5 @@
+package Week_1.Day_1;
+
 public class Simple_data {
     public static void main(String[] args) {
         String name = "Andres";

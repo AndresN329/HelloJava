@@ -1,10 +1,13 @@
-import java.util.ArrayList;
-import java.util.HashMap;
+package Week_1.Day_2;
 
-public class Main {
+import  java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Types_data_structures {
     public static void main(String[] args) {
 
-        //Arrays
+        //----------------------------Arrays--------------------------------------
         int[] numbers = new int[5];
         numbers[0] = 5;
         numbers[1] = 2;
@@ -21,7 +24,7 @@ public class Main {
         System.out.println("Second position now is: " + numbers[1]);
         System.out.println("-------------------------------------");
 
-        //ArrayList
+        //---------------------------------------ArrayList---------------------------------------
         ArrayList<String> backpack = new ArrayList<>();
 
         //Add content to array
@@ -36,7 +39,7 @@ public class Main {
         System.out.println("The items in the backpack are: " + backpack);
         System.out.println("-------------------------------------");
 
-        //Hashmap
+        //--------------------------------------Hashmap---------------------------------
         HashMap<String, Integer> treasures = new HashMap<>();
 
         //Add treasures
@@ -52,7 +55,7 @@ public class Main {
         System.out.println("The treasures are: " + treasures);
         System.out.println("-------------------------------------");
 
-        //Final challenge
+        //----------------------------------------Final challenge----------------------------------
         int[] secretsN = new int[3];
         secretsN[0] = 123;
         secretsN[1] = 347;
@@ -68,6 +71,17 @@ public class Main {
         amount.put(explorers.get(1),secretsN[2]);
         amount.put(explorers.get(2), secretsN[0]);
 
-        System.out.println("Who has more gold? " + amount);
+        // Richest explorer
+        String richest = "";
+        int maxGold = Integer.MIN_VALUE;
+
+        for (Map.Entry<String, Integer> entry : amount.entrySet()) {
+            if (entry.getValue() > maxGold) {
+                maxGold = entry.getValue();
+                richest = entry.getKey();
+            }
+        }
+
+        System.out.println("The explorer with the most gold is " + richest + " with " + maxGold + " coins.");
     }
 }
